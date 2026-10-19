@@ -20,12 +20,21 @@ STATE_FILE = "nba_state.json"
 THRESHOLD = 0.70
 
 
+
 def get_json(url, headers=None):
     req = urllib.request.Request(
-        url, headers=headers or {"User-Agent": "NBAHalftimeAlerts/1.0"}
+        url,
+        headers=headers or {"User-Agent": "Mozilla/5.0"}
     )
-    with urllib.request.urlopen(req, timeout=25) as response:
-        return json.loads(response.read().decode("utf-8"))
+    try:
+        with urllib.request.urlopen(req, timeout=25) as response:
+            return json.loads(response.read().decode("utf-8"))
+    except urllib.error.HTTPError as e:
+        print(f"HTTP ERROR: {e.code}")
+        print(f"URL: {req.full_url.split('?')[0]}")
+        print(f"SERVER MESSAGE: {e.read().decode('utf-8', errors='replace')[:500]}")
+        raise
+
 
 
 def save_json(path, data):
