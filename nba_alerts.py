@@ -112,8 +112,19 @@ def load_odds(api_key):
     return refresh_odds(api_key)
 
 
+
 def normalize(text):
-    return " ".join((text or "").lower().split())
+    name = " ".join((text or "").lower().split())
+
+    aliases = {
+        "los angeles clippers": "la clippers",
+        "la clippers": "la clippers",
+        "los angeles lakers": "la lakers",
+        "la lakers": "la lakers",
+    }
+
+    return aliases.get(name, name)
+
 
 
 def team_full_name(team):
