@@ -109,7 +109,17 @@ def refresh_odds(api_key):
 
 
 def load_odds(api_key):
-        print("MECZE Z FAWORYTAMI >70%:", len(odds.get("events", [])))
+        
+    print("MECZE Z FAWORYTAMI >70%:", len(odds.get("events", [])))
+    for event in odds.get("events", []):
+        print(
+            "FAWORYT:",
+            event.get("favorite"),
+            "| SZANSE:",
+            round(event.get("probability", 0) * 100),
+            "%",
+        )
+
     for event in odds.get("events", []):
         print("FAWORYT:", event.get("favorite"), "| SZANSE:", round(event.get("probability", 0) * 100), "%")
     today = datetime.now(ET).date().isoformat()
