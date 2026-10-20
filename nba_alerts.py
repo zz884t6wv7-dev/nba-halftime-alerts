@@ -186,7 +186,15 @@ def main():
     sent = set(state.get("sent", []))
     alerted = 0
 
-    for game in games:
+    for game in games:       
+        print(
+            "MECZ:",
+            game.get("name"),
+            "| STATUS:",
+            game.get("status", {}).get("type", {}).get("description"),
+            "| SZCZEGÓŁY:",
+            game.get("status", {}).get("type", {}).get("detail"),
+        )
         status_info = game.get("status", {})
         status_type = status_info.get("type", {})
         status_text = normalize(
