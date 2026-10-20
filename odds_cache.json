@@ -1,5 +1,5 @@
 {
-  "date_et": "2026-10-19",
+  "date_et": "2026-10-20",
   "events": [
     {
       "id": "60431a347feac3f1c7ed925b8b769ec5",
@@ -7,7 +7,7 @@
       "away_team": "Chicago Bulls",
       "commence_time": "2026-10-21T23:40:00Z",
       "favorite": "Toronto Raptors",
-      "probability": 0.7655
+      "probability": 0.7685
     },
     {
       "id": "af2f084075391e55ba2a596e7846bb40",
