@@ -12,8 +12,8 @@ ODDS_URL = (
     "basketball_nba/odds"
 )
 SCORE_URL = (
-    "https://cdn.nba.com/static/json/liveData/"
-    "scoreboard/todaysScoreboard_00.json"
+    "https://site.api.espn.com/apis/site/v2/"
+    "sports/basketball/nba/scoreboard"
 )
 CACHE_FILE = "odds_cache.json"
 STATE_FILE = "nba_state.json"
@@ -93,7 +93,7 @@ def refresh_odds(api_key):
 
         favorite = max(averaged, key=averaged.get)
         probability = averaged[favorite]
-        if probability >= THRESHOLD:
+        if probability > THRESHOLD:
             snapshot["events"].append({
                 "id": event.get("id"),
                 "home_team": event.get("home_team"),
@@ -172,7 +172,7 @@ def main():
 
     odds = load_odds(api_key)
     scoreboard = get_json(SCORE_URL)
-    games = scoreboard.get("scoreboard", {}).get("games", [])
+games = scoreboard.get("events", [])
 
     state = {"sent": []}
     if os.path.exists(STATE_FILE):
@@ -184,49 +184,61 @@ def main():
     sent = set(state.get("sent", []))
 
     alerted = 0
-    for game in games:
-        status = normalize(game.get("gameStatusText", ""))
-        period = game.get("period", 0)
+        alerted = 0
 
-        # Alert only at halftime, not at the end of any other quarter.
-        if "halftime" not in status and not (
-            period == 2 and status in ("end of 2nd quarter", "end of 2nd")
-        ):
+    for game in games:
+        status_info = game.get("status", {})
+        status_type = status_info.get("type", {})
+        status_text = normalize(
+            status_type.get("description", "")
+            or status_type.get("detail", "")
+        )
+
+        if "halftime" not in status_text:
             continue
 
-        home = game.get("homeTeam", {})
-        away = game.get("awayTeam", {})
+        competitions = game.get("competitions", [])
+        if not competitions:
+            continue
+
+        competitors = competitions[0].get("competitors", [])
+        home_data = next(
+            (c for c in competitors if c.get("homeAway") == "home"),
+            None,
+        )
+        away_data = next(
+            (c for c in competitors if c.get("homeAway") == "away"),
+            None,
+        )
+
+        if not home_data or not away_data:
+            continue
+
+        home = home_data.get("team", {})
+        away = away_data.get("team", {})
         home_name = team_full_name(home)
         away_name = team_full_name(away)
 
-        home_score = int(home.get("score") or 0)
-        away_score = int(away.get("score") or 0)
+        home_score = int(home_data.get("score") or 0)
+        away_score = int(away_data.get("score") or 0)
 
         for event in odds.get("events", []):
-            if event.get("id") in sent:
+            event_id = event.get("id")
+            if event_id in sent:
                 continue
 
             favorite = normalize(event.get("favorite"))
             if favorite not in (home_name, away_name):
                 continue
 
-            # Trigger if the pre-game favorite is tied or behind.
             if favorite == home_name:
                 fav_score, opp_score = home_score, away_score
-                fav_display = (
-                    f"{home.get('teamCity', '')} {home.get('teamName', '')}"
-                ).strip()
-                opponent = (
-                    f"{away.get('teamCity', '')} {away.get('teamName', '')}"
-                ).strip()
+                fav_display = home.get("displayName", home_name)
+                opponent = away.get("displayName", away_name)
             else:
                 fav_score, opp_score = away_score, home_score
-                fav_display = (
-                    f"{away.get('teamCity', '')} {away.get('teamName', '')}"
-                ).strip()
-                opponent = (
-                    f"{home.get('teamCity', '')} {home.get('teamName', '')}"
-                ).strip()
+                fav_display = away.get("displayName", away_name)
+                opponent = home.get("displayName", home_name)
 
             if fav_score <= opp_score:
                 pct = round(event["probability"] * 100)
@@ -234,12 +246,16 @@ def main():
                     f"{fav_display} — {pct}% szans przed meczem\n"
                     f"Do przerwy: {fav_score}:{opp_score} "
                     f"z {opponent}\n"
-                    f"Faworyt przegrywa lub remisuje do przerwy."
+                    "Faworyt przegrywa lub remisuje do przerwy."
                 )
                 send_alert(topic, message)
-                sent.add(event["id"])
+                sent.add(event_id)
                 alerted += 1
                 break
+
+    state["sent"] = list(sent)[-500:]
+    save_json(STATE_FILE, state)
+    print(f"Sprawdzono {len(games)} wydarzeń; wysłane alerty: {alerted}")
 
     # Keep recent IDs to prevent duplicate alerts.
     state["sent"] = list(sent)[-500:]
