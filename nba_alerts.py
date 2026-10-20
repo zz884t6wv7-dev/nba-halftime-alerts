@@ -109,7 +109,6 @@ def refresh_odds(api_key):
 
 
 def load_odds(api_key):
-        
     print("MECZE Z FAWORYTAMI >70%:", len(odds.get("events", [])))
     for event in odds.get("events", []):
         print(
