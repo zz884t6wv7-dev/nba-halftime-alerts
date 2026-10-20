@@ -170,9 +170,10 @@ def main():
         refresh_odds(api_key)
         return
 
+    
     odds = load_odds(api_key)
     scoreboard = get_json(SCORE_URL)
-games = scoreboard.get("events", [])
+    games = scoreboard.get("events", [])
 
     state = {"sent": []}
     if os.path.exists(STATE_FILE):
@@ -181,10 +182,18 @@ games = scoreboard.get("events", [])
                 state = json.load(f)
         except (OSError, ValueError):
             pass
-    sent = set(state.get("sent", []))
 
+    sent = set(state.get("sent", []))
     alerted = 0
-        alerted = 0
+
+    for game in games:
+        status_info = game.get("status", {})
+        status_type = status_info.get("type", {})
+        status_text = normalize(
+            status_type.get("description", "")
+            or status_type.get("detail", "")
+        )
+
 
     for game in games:
         status_info = game.get("status", {})
