@@ -1,13 +1,21 @@
 {
-  "date_et": "2026-10-20",
+  "date_et": "2026-10-21",
   "events": [
+    {
+      "id": "bccd283de56915e29af1788beb0abfc9",
+      "home_team": "San Antonio Spurs",
+      "away_team": "Oklahoma City Thunder",
+      "commence_time": "2026-10-21T01:52:15Z",
+      "favorite": "Oklahoma City Thunder",
+      "probability": 0.9136
+    },
     {
       "id": "60431a347feac3f1c7ed925b8b769ec5",
       "home_team": "Toronto Raptors",
       "away_team": "Chicago Bulls",
       "commence_time": "2026-10-21T23:40:00Z",
       "favorite": "Toronto Raptors",
-      "probability": 0.7685
+      "probability": 0.7771
     },
     {
       "id": "af2f084075391e55ba2a596e7846bb40",
@@ -15,7 +23,7 @@
       "away_team": "Dallas Mavericks",
       "commence_time": "2026-10-22T00:40:00Z",
       "favorite": "Houston Rockets",
-      "probability": 0.754
+      "probability": 0.7494
     },
     {
       "id": "223b2883b9b05a67329ef246384b85f1",
