@@ -1,77 +1,21 @@
 {
-  "date_et": "2026-10-22",
+  "date_et": "2026-10-23",
   "events": [
     {
-      "id": "6fff70f4bf196dba25060a5775a03b54",
+      "id": "946d3484688886fd8d3662aee224fb5f",
       "home_team": "Los Angeles Lakers",
-      "away_team": "Golden State Warriors",
-      "commence_time": "2026-10-22T02:17:00Z",
-      "favorite": "Los Angeles Lakers",
-      "probability": 0.9626
-    },
-    {
-      "id": "223b2883b9b05a67329ef246384b85f1",
-      "home_team": "Oklahoma City Thunder",
-      "away_team": "Denver Nuggets",
-      "commence_time": "2026-10-23T01:40:00Z",
-      "favorite": "Oklahoma City Thunder",
-      "probability": 0.7253
-    },
-    {
-      "id": "49fc89a9696a9a20b658732b34ce61c4",
-      "home_team": "San Antonio Spurs",
-      "away_team": "Houston Rockets",
-      "commence_time": "2026-10-24T01:40:00Z",
-      "favorite": "San Antonio Spurs",
-      "probability": 0.7021
-    },
-    {
-      "id": "036a93ca33d6261c21d4bfa6e0d02568",
-      "home_team": "Boston Celtics",
-      "away_team": "Chicago Bulls",
-      "commence_time": "2026-10-30T23:40:00Z",
-      "favorite": "Boston Celtics",
-      "probability": 0.8173
-    },
-    {
-      "id": "64df299b882ea19ad5f8cb0ed5516a6f",
-      "home_team": "Brooklyn Nets",
-      "away_team": "Detroit Pistons",
-      "commence_time": "2026-10-30T23:40:00Z",
-      "favorite": "Detroit Pistons",
-      "probability": 0.7258
-    },
-    {
-      "id": "cac1461f5983a88fac612685395aa897",
-      "home_team": "Minnesota Timberwolves",
       "away_team": "Los Angeles Clippers",
-      "commence_time": "2026-10-31T00:10:00Z",
-      "favorite": "Minnesota Timberwolves",
-      "probability": 0.7258
+      "commence_time": "2026-10-24T02:10:00Z",
+      "favorite": "Los Angeles Lakers",
+      "probability": 0.7656
     },
     {
-      "id": "1fae7f34ec6035dffa74feb148ee26c7",
-      "home_team": "San Antonio Spurs",
-      "away_team": "Golden State Warriors",
-      "commence_time": "2026-11-14T02:40:00Z",
-      "favorite": "San Antonio Spurs",
-      "probability": 0.8043
-    },
-    {
-      "id": "6bfadbd22ed8a054cf82ec1b12b78243",
-      "home_team": "Denver Nuggets",
-      "away_team": "Dallas Mavericks",
-      "commence_time": "2026-11-25T03:10:00Z",
-      "favorite": "Denver Nuggets",
-      "probability": 0.7441
-    },
-    {
-      "id": "07421d1675d6bc51bb5fa91f84a09eb3",
-      "home_team": "Oklahoma City Thunder",
-      "away_team": "Minnesota Timberwolves",
-      "commence_time": "2026-11-26T00:40:00Z",
-      "favorite": "Oklahoma City Thunder",
-      "probability": 0.7572
+      "id": "93ae924d3fc473aadfa50b26a9a2115b",
+      "home_team": "Sacramento Kings",
+      "away_team": "Portland Trail Blazers",
+      "commence_time": "2026-10-24T02:10:00Z",
+      "favorite": "Portland Trail Blazers",
+      "probability": 0.7281
     }
   ]
 }
