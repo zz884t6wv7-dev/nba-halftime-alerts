@@ -1,45 +1,37 @@
 {
-  "date_et": "2026-10-25",
+  "date_et": "2026-10-26",
   "events": [
     {
-      "id": "0c95f2515a34d871cd4946cbf38dd670",
-      "home_team": "Denver Nuggets",
-      "away_team": "New Orleans Pelicans",
-      "commence_time": "2026-10-25T01:14:00Z",
-      "favorite": "Denver Nuggets",
-      "probability": 0.8505
+      "id": "32ac8b94cc41f272efa96f0cf993e07a",
+      "home_team": "Boston Celtics",
+      "away_team": "Chicago Bulls",
+      "commence_time": "2026-10-26T23:30:00Z",
+      "favorite": "Boston Celtics",
+      "probability": 0.8483
     },
     {
-      "id": "a71197130d9b661f5b29c812583fe652",
-      "home_team": "Phoenix Suns",
-      "away_team": "Golden State Warriors",
-      "commence_time": "2026-10-25T02:14:00Z",
-      "favorite": "Phoenix Suns",
-      "probability": 0.9031
+      "id": "69aa52b674648238de10389a3d343208",
+      "home_team": "Miami Heat",
+      "away_team": "Dallas Mavericks",
+      "commence_time": "2026-10-26T23:30:00Z",
+      "favorite": "Miami Heat",
+      "probability": 0.735
     },
     {
-      "id": "3f57b691d91174cd878320071f585c11",
-      "home_team": "Brooklyn Nets",
-      "away_team": "Indiana Pacers",
-      "commence_time": "2026-10-25T22:10:00Z",
-      "favorite": "Indiana Pacers",
-      "probability": 0.708
-    },
-    {
-      "id": "4bdaabae0c074d48156aaa3e315a5c4d",
-      "home_team": "New York Knicks",
-      "away_team": "Orlando Magic",
-      "commence_time": "2026-10-25T23:00:00Z",
-      "favorite": "New York Knicks",
-      "probability": 0.7235
-    },
-    {
-      "id": "e6834225d7e218a59333dbbc01fe67ab",
+      "id": "90620ab57facf54f629af8beec468e54",
       "home_team": "Oklahoma City Thunder",
-      "away_team": "Los Angeles Clippers",
-      "commence_time": "2026-10-25T23:10:00Z",
+      "away_team": "Phoenix Suns",
+      "commence_time": "2026-10-27T00:10:00Z",
       "favorite": "Oklahoma City Thunder",
-      "probability": 0.8795
+      "probability": 0.7563
+    },
+    {
+      "id": "d7f8398941d7c90befa60f35876a3ae7",
+      "home_team": "Denver Nuggets",
+      "away_team": "Golden State Warriors",
+      "commence_time": "2026-10-27T02:00:00Z",
+      "favorite": "Denver Nuggets",
+      "probability": 0.7213
     }
   ]
 }
