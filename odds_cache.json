@@ -1,21 +1,37 @@
 {
-  "date_et": "2026-10-27",
+  "date_et": "2026-10-28",
   "events": [
     {
-      "id": "9ad8cc650802c0c5c3c23a1f32c3e0f6",
-      "home_team": "Boston Celtics",
-      "away_team": "Brooklyn Nets",
-      "commence_time": "2026-10-27T23:40:00Z",
-      "favorite": "Boston Celtics",
-      "probability": 0.8205
+      "id": "7f5287957f506fbf705e198215fa952b",
+      "home_team": "Detroit Pistons",
+      "away_team": "Charlotte Hornets",
+      "commence_time": "2026-10-28T23:10:00Z",
+      "favorite": "Detroit Pistons",
+      "probability": 0.7036
     },
     {
-      "id": "7a640609d2c74cbbfd05008d0875455b",
-      "home_team": "San Antonio Spurs",
-      "away_team": "Sacramento Kings",
-      "commence_time": "2026-10-28T00:10:00Z",
+      "id": "f2a1271ffcfd7c85f51640ebff3b7ddd",
+      "home_team": "Cleveland Cavaliers",
+      "away_team": "Washington Wizards",
+      "commence_time": "2026-10-28T23:10:00Z",
+      "favorite": "Cleveland Cavaliers",
+      "probability": 0.7698
+    },
+    {
+      "id": "83ca338f605b5664b7b1da34c19a0222",
+      "home_team": "Milwaukee Bucks",
+      "away_team": "Houston Rockets",
+      "commence_time": "2026-10-29T00:10:00Z",
+      "favorite": "Houston Rockets",
+      "probability": 0.7341
+    },
+    {
+      "id": "e74d54621abaed183e569394f935c362",
+      "home_team": "Utah Jazz",
+      "away_team": "San Antonio Spurs",
+      "commence_time": "2026-10-29T01:10:00Z",
       "favorite": "San Antonio Spurs",
-      "probability": 0.9116
+      "probability": 0.8219
     }
   ]
 }
