@@ -1,37 +1,37 @@
 {
-  "date_et": "2026-10-30",
+  "date_et": "2026-10-31",
   "events": [
     {
-      "id": "ba667ca1b0b042f0661cb9d9af56c165",
-      "home_team": "Portland Trail Blazers",
-      "away_team": "Memphis Grizzlies",
-      "commence_time": "2026-10-30T02:13:00Z",
+      "id": "761c15cdefb5a94e34f234e11d6e57ad",
+      "home_team": "Golden State Warriors",
+      "away_team": "Los Angeles Lakers",
+      "commence_time": "2026-10-31T02:12:42Z",
+      "favorite": "Golden State Warriors",
+      "probability": 0.9263
+    },
+    {
+      "id": "6d7e1e0af6d568f4435d35a1763a3622",
+      "home_team": "Milwaukee Bucks",
+      "away_team": "Cleveland Cavaliers",
+      "commence_time": "2026-11-01T00:10:00Z",
+      "favorite": "Cleveland Cavaliers",
+      "probability": 0.7471
+    },
+    {
+      "id": "863ae1092be42c6b563b2c4f099a3eb3",
+      "home_team": "Memphis Grizzlies",
+      "away_team": "Sacramento Kings",
+      "commence_time": "2026-11-01T00:10:00Z",
       "favorite": "Memphis Grizzlies",
-      "probability": 0.9414
+      "probability": 0.7925
     },
     {
-      "id": "036a93ca33d6261c21d4bfa6e0d02568",
-      "home_team": "Boston Celtics",
-      "away_team": "Chicago Bulls",
-      "commence_time": "2026-10-30T23:40:00Z",
-      "favorite": "Boston Celtics",
-      "probability": 0.8565
-    },
-    {
-      "id": "64df299b882ea19ad5f8cb0ed5516a6f",
-      "home_team": "Brooklyn Nets",
-      "away_team": "Detroit Pistons",
-      "commence_time": "2026-10-30T23:40:00Z",
-      "favorite": "Detroit Pistons",
-      "probability": 0.7108
-    },
-    {
-      "id": "c3a424e24d426af94a693e06a33e3037",
-      "home_team": "Miami Heat",
-      "away_team": "Indiana Pacers",
-      "commence_time": "2026-10-31T00:10:00Z",
-      "favorite": "Miami Heat",
-      "probability": 0.706
+      "id": "06a03fb0ce0f81a970c6000fb71fdc6d",
+      "home_team": "San Antonio Spurs",
+      "away_team": "Minnesota Timberwolves",
+      "commence_time": "2026-11-01T00:10:00Z",
+      "favorite": "San Antonio Spurs",
+      "probability": 0.8234
     }
   ]
 }
