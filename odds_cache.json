@@ -1,45 +1,29 @@
 {
-  "date_et": "2026-11-02",
+  "date_et": "2026-11-03",
   "events": [
     {
-      "id": "4f6688e4d1818bd8bb3e65352c7a0406",
-      "home_team": "New York Knicks",
-      "away_team": "Brooklyn Nets",
-      "commence_time": "2026-11-03T00:40:00Z",
-      "favorite": "New York Knicks",
-      "probability": 0.8617
+      "id": "afde8462706839f30115ea9d5f761066",
+      "home_team": "Los Angeles Clippers",
+      "away_team": "Toronto Raptors",
+      "commence_time": "2026-11-03T03:13:00Z",
+      "favorite": "Los Angeles Clippers",
+      "probability": 0.7282
     },
     {
-      "id": "0a808d8f7afab3c0e249ca284c470806",
-      "home_team": "Philadelphia 76ers",
-      "away_team": "Chicago Bulls",
-      "commence_time": "2026-11-03T00:40:00Z",
-      "favorite": "Philadelphia 76ers",
-      "probability": 0.8125
+      "id": "b2557f74f4d7675ed3b76a4a064e0bc9",
+      "home_team": "Houston Rockets",
+      "away_team": "Minnesota Timberwolves",
+      "commence_time": "2026-11-05T01:40:00Z",
+      "favorite": "Houston Rockets",
+      "probability": 0.7484
     },
     {
-      "id": "df7f8fce0b1c11db5140d60e1e126eb3",
-      "home_team": "Dallas Mavericks",
-      "away_team": "Sacramento Kings",
-      "commence_time": "2026-11-03T01:10:00Z",
-      "favorite": "Dallas Mavericks",
-      "probability": 0.7676
-    },
-    {
-      "id": "6907851d65a9d0046d4c6c2f4ffb5e80",
-      "home_team": "Minnesota Timberwolves",
-      "away_team": "Milwaukee Bucks",
-      "commence_time": "2026-11-03T01:10:00Z",
-      "favorite": "Minnesota Timberwolves",
-      "probability": 0.7892
-    },
-    {
-      "id": "fe9664deb3e21a28b10a3de39adfb82a",
+      "id": "6b25f3932db93d4c5ad7658def2645bf",
       "home_team": "San Antonio Spurs",
-      "away_team": "Utah Jazz",
-      "commence_time": "2026-11-03T01:40:00Z",
+      "away_team": "Dallas Mavericks",
+      "commence_time": "2026-11-05T02:40:00Z",
       "favorite": "San Antonio Spurs",
-      "probability": 0.884
+      "probability": 0.8373
     }
   ]
 }
