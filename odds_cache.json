@@ -1,29 +1,45 @@
 {
-  "date_et": "2026-11-03",
+  "date_et": "2026-11-04",
   "events": [
     {
-      "id": "afde8462706839f30115ea9d5f761066",
-      "home_team": "Los Angeles Clippers",
-      "away_team": "Toronto Raptors",
-      "commence_time": "2026-11-03T03:13:00Z",
-      "favorite": "Los Angeles Clippers",
-      "probability": 0.7282
+      "id": "1cb12166c3eda270d40cc65b9b34459a",
+      "home_team": "Boston Celtics",
+      "away_team": "Milwaukee Bucks",
+      "commence_time": "2026-11-05T00:40:00Z",
+      "favorite": "Boston Celtics",
+      "probability": 0.8106
+    },
+    {
+      "id": "87d2b814c3f0d3691e9cebbf2de76295",
+      "home_team": "New York Knicks",
+      "away_team": "Chicago Bulls",
+      "commence_time": "2026-11-05T00:40:00Z",
+      "favorite": "New York Knicks",
+      "probability": 0.8251
     },
     {
       "id": "b2557f74f4d7675ed3b76a4a064e0bc9",
       "home_team": "Houston Rockets",
       "away_team": "Minnesota Timberwolves",
-      "commence_time": "2026-11-05T01:40:00Z",
+      "commence_time": "2026-11-05T01:30:00Z",
       "favorite": "Houston Rockets",
-      "probability": 0.7484
+      "probability": 0.7267
     },
     {
       "id": "6b25f3932db93d4c5ad7658def2645bf",
       "home_team": "San Antonio Spurs",
       "away_team": "Dallas Mavericks",
-      "commence_time": "2026-11-05T02:40:00Z",
+      "commence_time": "2026-11-05T02:30:00Z",
       "favorite": "San Antonio Spurs",
-      "probability": 0.8373
+      "probability": 0.8095
+    },
+    {
+      "id": "29988f1011d7738962e13e0a0beb693f",
+      "home_team": "Sacramento Kings",
+      "away_team": "Los Angeles Lakers",
+      "commence_time": "2026-11-05T03:10:00Z",
+      "favorite": "Los Angeles Lakers",
+      "probability": 0.8144
     }
   ]
 }
