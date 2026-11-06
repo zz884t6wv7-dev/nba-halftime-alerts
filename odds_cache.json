@@ -1,13 +1,29 @@
 {
-  "date_et": "2026-11-05",
+  "date_et": "2026-11-06",
   "events": [
     {
-      "id": "29988f1011d7738962e13e0a0beb693f",
+      "id": "49daf3d42e20ce4bc70f8a68cf70ce4c",
+      "home_team": "Charlotte Hornets",
+      "away_team": "Boston Celtics",
+      "commence_time": "2026-11-07T00:10:00Z",
+      "favorite": "Boston Celtics",
+      "probability": 0.744
+    },
+    {
+      "id": "62a92e31b546d31ba57caf792815bf65",
+      "home_team": "Dallas Mavericks",
+      "away_team": "Utah Jazz",
+      "commence_time": "2026-11-07T01:10:00Z",
+      "favorite": "Dallas Mavericks",
+      "probability": 0.7062
+    },
+    {
+      "id": "d24eb5492983d6e28be3b96df396fa12",
       "home_team": "Sacramento Kings",
-      "away_team": "Los Angeles Lakers",
-      "commence_time": "2026-11-05T03:10:38Z",
-      "favorite": "Los Angeles Lakers",
-      "probability": 0.9407
+      "away_team": "San Antonio Spurs",
+      "commence_time": "2026-11-07T03:10:00Z",
+      "favorite": "San Antonio Spurs",
+      "probability": 0.8755
     }
   ]
 }
