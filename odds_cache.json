@@ -1,37 +1,45 @@
 {
-  "date_et": "2026-11-07",
+  "date_et": "2026-11-08",
   "events": [
     {
-      "id": "83d77fe350d56a036fd7a3404e78249a",
-      "home_team": "Los Angeles Lakers",
-      "away_team": "Portland Trail Blazers",
-      "commence_time": "2026-11-07T03:14:00Z",
-      "favorite": "Los Angeles Lakers",
-      "probability": 0.8837
+      "id": "a5d2d9c68b7446860de658aa4bc33c5b",
+      "home_team": "Chicago Bulls",
+      "away_team": "Philadelphia 76ers",
+      "commence_time": "2026-11-08T20:40:00Z",
+      "favorite": "Philadelphia 76ers",
+      "probability": 0.7517
     },
     {
-      "id": "e76682ca6c25a37b0a53cec226b91aab",
-      "home_team": "Indiana Pacers",
-      "away_team": "Denver Nuggets",
-      "commence_time": "2026-11-07T22:10:00Z",
-      "favorite": "Denver Nuggets",
-      "probability": 0.7023
+      "id": "758ca94b2abd151c0593b182254dab32",
+      "home_team": "Minnesota Timberwolves",
+      "away_team": "Utah Jazz",
+      "commence_time": "2026-11-09T00:10:00Z",
+      "favorite": "Minnesota Timberwolves",
+      "probability": 0.8172
     },
     {
-      "id": "6faeaee3bdf2a167eb67f93c44d3ef37",
-      "home_team": "Oklahoma City Thunder",
-      "away_team": "Washington Wizards",
-      "commence_time": "2026-11-08T01:10:00Z",
-      "favorite": "Oklahoma City Thunder",
-      "probability": 0.7972
+      "id": "c5b6599e8e4949749798dcdadceb68d4",
+      "home_team": "Dallas Mavericks",
+      "away_team": "Brooklyn Nets",
+      "commence_time": "2026-11-09T00:40:00Z",
+      "favorite": "Dallas Mavericks",
+      "probability": 0.7519
     },
     {
-      "id": "af8d920f175d73f12933c64ae296573f",
-      "home_team": "Phoenix Suns",
-      "away_team": "Houston Rockets",
-      "commence_time": "2026-11-08T02:10:00Z",
-      "favorite": "Houston Rockets",
-      "probability": 0.7119
+      "id": "98eae523edadc7d4d42ab37222eb2c88",
+      "home_team": "Milwaukee Bucks",
+      "away_team": "Boston Celtics",
+      "commence_time": "2026-11-09T01:10:00Z",
+      "favorite": "Boston Celtics",
+      "probability": 0.8419
+    },
+    {
+      "id": "7ea5547b35ef782963e4f384d3414dfa",
+      "home_team": "Sacramento Kings",
+      "away_team": "Miami Heat",
+      "commence_time": "2026-11-09T02:10:00Z",
+      "favorite": "Miami Heat",
+      "probability": 0.7478
     }
   ]
 }
