@@ -1,45 +1,21 @@
 {
-  "date_et": "2026-11-09",
+  "date_et": "2026-11-10",
   "events": [
     {
-      "id": "1df5ff8fe9c6d2dbff1d0ae176063b37",
-      "home_team": "Charlotte Hornets",
-      "away_team": "Cleveland Cavaliers",
-      "commence_time": "2026-11-10T00:10:00Z",
-      "favorite": "Cleveland Cavaliers",
-      "probability": 0.7423
+      "id": "3689d555c9a1c81e3d300375b4c80530",
+      "home_team": "New York Knicks",
+      "away_team": "Milwaukee Bucks",
+      "commence_time": "2026-11-11T00:40:00Z",
+      "favorite": "New York Knicks",
+      "probability": 0.8825
     },
     {
-      "id": "929b863acedecaf614c6312e28a44837",
-      "home_team": "Detroit Pistons",
-      "away_team": "Washington Wizards",
-      "commence_time": "2026-11-10T00:10:00Z",
-      "favorite": "Detroit Pistons",
-      "probability": 0.7899
-    },
-    {
-      "id": "dc61de43b5db9de357f48f44c8022494",
-      "home_team": "Houston Rockets",
-      "away_team": "Denver Nuggets",
-      "commence_time": "2026-11-10T01:40:00Z",
-      "favorite": "Houston Rockets",
-      "probability": 0.7462
-    },
-    {
-      "id": "dc4eb6ae9979b3d3418c35b4210f0c72",
-      "home_team": "Phoenix Suns",
-      "away_team": "San Antonio Spurs",
-      "commence_time": "2026-11-10T02:10:00Z",
-      "favorite": "San Antonio Spurs",
-      "probability": 0.7419
-    },
-    {
-      "id": "3619e1cf4b0a325c3e0ba5b1fb7f3d91",
-      "home_team": "Golden State Warriors",
-      "away_team": "New Orleans Pelicans",
-      "commence_time": "2026-11-10T03:10:00Z",
-      "favorite": "Golden State Warriors",
-      "probability": 0.7587
+      "id": "9ac02cb22adf276b325b1e9c9c6c588e",
+      "home_team": "Utah Jazz",
+      "away_team": "Miami Heat",
+      "commence_time": "2026-11-11T02:10:00Z",
+      "favorite": "Miami Heat",
+      "probability": 0.7773
     }
   ]
 }
