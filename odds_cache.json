@@ -1,21 +1,53 @@
 {
-  "date_et": "2026-11-12",
+  "date_et": "2026-11-13",
   "events": [
     {
-      "id": "d5c5ae8d56762b45d1ec4b85337878f3",
-      "home_team": "Washington Wizards",
-      "away_team": "Detroit Pistons",
-      "commence_time": "2026-11-13T00:10:00Z",
-      "favorite": "Detroit Pistons",
-      "probability": 0.7724
+      "id": "6669b911691463c669a5c10574742e8e",
+      "home_team": "Indiana Pacers",
+      "away_team": "New York Knicks",
+      "commence_time": "2026-11-14T00:10:00Z",
+      "favorite": "New York Knicks",
+      "probability": 0.7007
     },
     {
-      "id": "a98ff1ab79feb59277d989c656f16144",
-      "home_team": "Philadelphia 76ers",
-      "away_team": "Toronto Raptors",
-      "commence_time": "2026-11-13T00:10:00Z",
-      "favorite": "Philadelphia 76ers",
-      "probability": 0.7786
+      "id": "76416359b5453c01968e94702a375f16",
+      "home_team": "Orlando Magic",
+      "away_team": "Milwaukee Bucks",
+      "commence_time": "2026-11-14T00:10:00Z",
+      "favorite": "Orlando Magic",
+      "probability": 0.7584
+    },
+    {
+      "id": "d04acca7f0f369fc53bf04cd3357cb0d",
+      "home_team": "Houston Rockets",
+      "away_team": "Utah Jazz",
+      "commence_time": "2026-11-14T01:40:00Z",
+      "favorite": "Houston Rockets",
+      "probability": 0.9014
+    },
+    {
+      "id": "1fae7f34ec6035dffa74feb148ee26c7",
+      "home_team": "San Antonio Spurs",
+      "away_team": "Golden State Warriors",
+      "commence_time": "2026-11-14T02:40:00Z",
+      "favorite": "San Antonio Spurs",
+      "probability": 0.843
+    },
+    {
+      "id": "a51c350318d7570c2b74af08eedb9fcd",
+      "home_team": "Sacramento Kings",
+      "away_team": "Portland Trail Blazers",
+      "commence_time": "2026-11-14T03:10:00Z",
+      "favorite": "Portland Trail Blazers",
+      "probability": 0.8085
+    },
+    {
+      "id": "5344669fd560d317ffaee0a1d16be7c8",
+      "home_team": "Los Angeles Clippers",
+      "away_team": "Oklahoma City Thunder",
+      "commence_time": "2026-11-14T03:40:00Z",
+      "favorite": "Oklahoma City Thunder",
+      "probability": 0.7087
     }
   ]
 }
