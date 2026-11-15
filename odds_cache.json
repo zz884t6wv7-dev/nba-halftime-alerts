@@ -1,29 +1,53 @@
 {
-  "date_et": "2026-11-14",
+  "date_et": "2026-11-15",
   "events": [
     {
-      "id": "5344669fd560d317ffaee0a1d16be7c8",
-      "home_team": "Los Angeles Clippers",
+      "id": "de475830b5df0d1aae4fcd8f9bbaead9",
+      "home_team": "Philadelphia 76ers",
+      "away_team": "Indiana Pacers",
+      "commence_time": "2026-11-15T18:10:00Z",
+      "favorite": "Philadelphia 76ers",
+      "probability": 0.7112
+    },
+    {
+      "id": "b2ffb781fe21df092fae2cff6c4c8c89",
+      "home_team": "Utah Jazz",
+      "away_team": "San Antonio Spurs",
+      "commence_time": "2026-11-15T22:10:00Z",
+      "favorite": "San Antonio Spurs",
+      "probability": 0.899
+    },
+    {
+      "id": "956532b58659658093d93e24e83f5213",
+      "home_team": "Boston Celtics",
+      "away_team": "Dallas Mavericks",
+      "commence_time": "2026-11-15T23:10:00Z",
+      "favorite": "Boston Celtics",
+      "probability": 0.8465
+    },
+    {
+      "id": "488c2bc1e099361f06015cf126f95fd6",
+      "home_team": "Washington Wizards",
+      "away_team": "Houston Rockets",
+      "commence_time": "2026-11-16T00:10:00Z",
+      "favorite": "Houston Rockets",
+      "probability": 0.7744
+    },
+    {
+      "id": "b931a21d34e414ee92b1a4b8e63774aa",
+      "home_team": "Milwaukee Bucks",
+      "away_team": "Atlanta Hawks",
+      "commence_time": "2026-11-16T01:10:00Z",
+      "favorite": "Atlanta Hawks",
+      "probability": 0.723
+    },
+    {
+      "id": "f8334b355cf9346d423fa9eb93b425f0",
+      "home_team": "Sacramento Kings",
       "away_team": "Oklahoma City Thunder",
-      "commence_time": "2026-11-14T03:40:00Z",
+      "commence_time": "2026-11-16T02:10:00Z",
       "favorite": "Oklahoma City Thunder",
-      "probability": 0.734
-    },
-    {
-      "id": "6cb4c8feeadd57aa6ab46ebdee60818a",
-      "home_team": "New Orleans Pelicans",
-      "away_team": "Denver Nuggets",
-      "commence_time": "2026-11-15T00:10:00Z",
-      "favorite": "Denver Nuggets",
-      "probability": 0.8212
-    },
-    {
-      "id": "5773e80d52d3fba36b11be38ded62790",
-      "home_team": "Minnesota Timberwolves",
-      "away_team": "Chicago Bulls",
-      "commence_time": "2026-11-15T01:10:00Z",
-      "favorite": "Minnesota Timberwolves",
-      "probability": 0.8591
+      "probability": 0.7926
     }
   ]
 }
