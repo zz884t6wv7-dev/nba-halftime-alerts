@@ -1,21 +1,29 @@
 {
-  "date_et": "2026-11-17",
+  "date_et": "2026-11-18",
   "events": [
     {
-      "id": "69f0b70d1185e537c5ae4be43ebf2c9f",
-      "home_team": "San Antonio Spurs",
-      "away_team": "Detroit Pistons",
-      "commence_time": "2026-11-18T01:10:00Z",
-      "favorite": "San Antonio Spurs",
-      "probability": 0.7536
+      "id": "b609888ea766ac28cd0e84f315d8f3d2",
+      "home_team": "Miami Heat",
+      "away_team": "Milwaukee Bucks",
+      "commence_time": "2026-11-19T00:10:00Z",
+      "favorite": "Miami Heat",
+      "probability": 0.8474
     },
     {
-      "id": "bed6147c75f3706f25e25f5bdfeaf1ec",
-      "home_team": "Los Angeles Lakers",
-      "away_team": "Charlotte Hornets",
-      "commence_time": "2026-11-18T04:10:00Z",
-      "favorite": "Los Angeles Lakers",
-      "probability": 0.7284
+      "id": "5896e4ed2ed41ce673e882b6529078b8",
+      "home_team": "Toronto Raptors",
+      "away_team": "Washington Wizards",
+      "commence_time": "2026-11-19T00:40:00Z",
+      "favorite": "Toronto Raptors",
+      "probability": 0.7046
+    },
+    {
+      "id": "990b541d0ada46fce07ce8b502cf425c",
+      "home_team": "New Orleans Pelicans",
+      "away_team": "Detroit Pistons",
+      "commence_time": "2026-11-19T01:10:00Z",
+      "favorite": "Detroit Pistons",
+      "probability": 0.7131
     }
   ]
 }
