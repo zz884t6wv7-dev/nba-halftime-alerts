@@ -1,29 +1,29 @@
 {
-  "date_et": "2026-11-21",
+  "date_et": "2026-11-22",
   "events": [
     {
-      "id": "6cd4587453e4da55317b2c1e3576e75b",
-      "home_team": "Philadelphia 76ers",
-      "away_team": "Milwaukee Bucks",
-      "commence_time": "2026-11-21T18:10:00Z",
-      "favorite": "Philadelphia 76ers",
-      "probability": 0.8287
+      "id": "15a079f55e23d26237844224f258c972",
+      "home_team": "Chicago Bulls",
+      "away_team": "Denver Nuggets",
+      "commence_time": "2026-11-23T00:10:00Z",
+      "favorite": "Denver Nuggets",
+      "probability": 0.757
     },
     {
-      "id": "1139ffb82856378723c5465df4e13d96",
-      "home_team": "San Antonio Spurs",
-      "away_team": "New Orleans Pelicans",
-      "commence_time": "2026-11-22T01:10:00Z",
-      "favorite": "San Antonio Spurs",
-      "probability": 0.8945
+      "id": "031fa761cc38e1b5afd9309b731b38b2",
+      "home_team": "New York Knicks",
+      "away_team": "Indiana Pacers",
+      "commence_time": "2026-11-23T01:10:00Z",
+      "favorite": "New York Knicks",
+      "probability": 0.7618
     },
     {
-      "id": "b754a1bf84af81d45d4a3a16398daa44",
-      "home_team": "Sacramento Kings",
+      "id": "b8c5bdb50209c7d050400c7d28c32e30",
+      "home_team": "Golden State Warriors",
       "away_team": "Boston Celtics",
-      "commence_time": "2026-11-22T03:10:00Z",
+      "commence_time": "2026-11-23T01:40:00Z",
       "favorite": "Boston Celtics",
-      "probability": 0.8426
+      "probability": 0.7657
     }
   ]
 }
