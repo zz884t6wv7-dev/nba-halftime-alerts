@@ -1,53 +1,29 @@
 {
-  "date_et": "2026-11-23",
+  "date_et": "2026-11-24",
   "events": [
     {
-      "id": "a72a1703f7a92b80768255d1d977a761",
-      "home_team": "Minnesota Timberwolves",
-      "away_team": "Brooklyn Nets",
-      "commence_time": "2026-11-24T00:40:00Z",
-      "favorite": "Minnesota Timberwolves",
-      "probability": 0.8236
+      "id": "3167a4072c65c9314c71d0fe49be8e28",
+      "home_team": "Washington Wizards",
+      "away_team": "Boston Celtics",
+      "commence_time": "2026-11-25T01:10:00Z",
+      "favorite": "Boston Celtics",
+      "probability": 0.7865
     },
     {
-      "id": "a5184238c27b9c3bfca29220f9d5d14a",
-      "home_team": "Toronto Raptors",
-      "away_team": "Milwaukee Bucks",
-      "commence_time": "2026-11-24T00:40:00Z",
-      "favorite": "Toronto Raptors",
-      "probability": 0.7965
+      "id": "6bfadbd22ed8a054cf82ec1b12b78243",
+      "home_team": "Denver Nuggets",
+      "away_team": "Dallas Mavericks",
+      "commence_time": "2026-11-25T03:10:00Z",
+      "favorite": "Denver Nuggets",
+      "probability": 0.7356
     },
     {
-      "id": "b8dfee1fca57ec870528a14c792ad73a",
-      "home_team": "Chicago Bulls",
-      "away_team": "Cleveland Cavaliers",
-      "commence_time": "2026-11-24T01:10:00Z",
-      "favorite": "Cleveland Cavaliers",
-      "probability": 0.7379
-    },
-    {
-      "id": "db2311c331296d3328d71b842167dea4",
+      "id": "60fd73164f7b0d1848f998d922155d87",
       "home_team": "Houston Rockets",
-      "away_team": "Los Angeles Clippers",
-      "commence_time": "2026-11-24T01:40:00Z",
+      "away_team": "Phoenix Suns",
+      "commence_time": "2026-11-26T01:40:00Z",
       "favorite": "Houston Rockets",
-      "probability": 0.8308
-    },
-    {
-      "id": "3e9dc52cb055c0154839c4aec417955b",
-      "home_team": "Los Angeles Lakers",
-      "away_team": "Utah Jazz",
-      "commence_time": "2026-11-24T03:10:00Z",
-      "favorite": "Los Angeles Lakers",
-      "probability": 0.851
-    },
-    {
-      "id": "17f31499f145cd9d3232819395d29448",
-      "home_team": "Sacramento Kings",
-      "away_team": "San Antonio Spurs",
-      "commence_time": "2026-11-24T03:10:00Z",
-      "favorite": "San Antonio Spurs",
-      "probability": 0.7959
+      "probability": 0.7567
     }
   ]
 }
