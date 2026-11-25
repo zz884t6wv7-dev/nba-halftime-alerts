@@ -1,29 +1,13 @@
 {
-  "date_et": "2026-11-24",
+  "date_et": "2026-11-25",
   "events": [
-    {
-      "id": "3167a4072c65c9314c71d0fe49be8e28",
-      "home_team": "Washington Wizards",
-      "away_team": "Boston Celtics",
-      "commence_time": "2026-11-25T01:10:00Z",
-      "favorite": "Boston Celtics",
-      "probability": 0.7865
-    },
-    {
-      "id": "6bfadbd22ed8a054cf82ec1b12b78243",
-      "home_team": "Denver Nuggets",
-      "away_team": "Dallas Mavericks",
-      "commence_time": "2026-11-25T03:10:00Z",
-      "favorite": "Denver Nuggets",
-      "probability": 0.7356
-    },
     {
       "id": "60fd73164f7b0d1848f998d922155d87",
       "home_team": "Houston Rockets",
       "away_team": "Phoenix Suns",
       "commence_time": "2026-11-26T01:40:00Z",
       "favorite": "Houston Rockets",
-      "probability": 0.7567
+      "probability": 0.7646
     }
   ]
 }
